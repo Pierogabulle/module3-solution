@@ -1,0 +1,27 @@
+/* Cuadro visible para el item de menú */
+.menu-panel {
+  border: 3px solid #8c8c8c;         /* borde notorio */
+  box-shadow: 3px 3px 12px rgba(0,0,0,0.18);
+}
+
+.menu-panel .panel-heading {
+  background-color: #d9d9d9;         /* barra superior gris claro */
+  border-bottom: 3px solid #8c8c8c;
+  font-size: 20px;
+}
+
+.menu-panel .panel-body {
+  background-color: #847b7b;         /* fondo gris oscuro del cuadro */
+  color: gray;                      /* texto blanco para contraste */
+  min-height: 1000px;                 /* altura para obligar scroll */
+  padding: 20px;
+}
+
+/* Menú móvil ocupa todo el ancho y se distingue del resto */
+.navbar-nav {
+  background-color: #f8f8f8;
+}
+.navbar-nav > li > a {
+  border-bottom: 1px solid #ddd;
+}
+
